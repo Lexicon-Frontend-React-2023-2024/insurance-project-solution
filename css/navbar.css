@@ -1,0 +1,13 @@
+#navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+}
+
+#navbar a {
+  color: gray;
+  font-size: 2rem;
+  padding-block: 3rem;
+  text-decoration: none;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+/* ########## Blue segment ########## */
+#hero .blue-segment {
+  background-color: var(--blue);
+  margin-bottom: -0.3rem;
+  padding: var(--section-padding);
+}
+
+#hero .blue-segment p {
+  color: #83929a;
+  font-size: var(--font_size_p);
+  margin-bottom: 3rem;
+}
+
+#hero .blue-segment figure {
+  padding-top: 3rem;
+}
+
+#hero .blue-segment p .emphasis {
+  color: var(--white);
+}
+
+/* ########## Orange segment ########## */
+
+#hero .orange-segment {
+  align-items: center;
+  background-color: var(--orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 8rem;
+}
+
+#hero .orange-segment p {
+  color: #783c24;
+  font-size: var(--font_size_p);
+}
+
+/* ########## Yellow ange segment ########## */
+
+#hero .yellow-segment {
+  align-items: center;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 8rem;
+}
+
+#hero .yellow-segment p {
+  color: #783c24;
+  font-size: var(--font_size_p);
+}
