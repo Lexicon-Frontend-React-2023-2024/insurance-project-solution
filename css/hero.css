@@ -1,0 +1,95 @@
+/* ########## Blue segment ########## */
+#hero .blue-segment {
+  background-color: var(--blue);
+  margin-bottom: -0.3rem;
+  padding: var(--section-padding);
+}
+
+#hero .blue-segment p {
+  color: #83929a;
+  font-size: var(--font_size_p);
+  margin-bottom: 3rem;
+}
+
+#hero .blue-segment figure {
+  padding-top: 3rem;
+}
+
+#hero .blue-segment p .emphasis {
+  color: var(--white);
+}
+
+/* ########## Orange segment ########## */
+
+#hero .orange-segment {
+  align-items: center;
+  background-color: var(--orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 8rem;
+}
+
+#hero .orange-segment p {
+  color: #783c24;
+  font-size: var(--font_size_p);
+  margin-bottom: 1rem;
+}
+
+/* ########## Yellow ange segment ########## */
+
+#hero .yellow-segment {
+  align-items: center;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 8rem;
+}
+
+#hero .yellow-segment p {
+  color: #783c24;
+  font-size: var(--font_size_p);
+  margin-bottom: 1rem;
+}
+
+/* ########## Media Queries ########## */
+
+@media screen and (min-width: 768px) {
+  #hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #hero .blue-segment {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-bottom: 0;
+    padding: 3rem 13rem 0 3rem;
+    position: relative;
+  }
+
+  #hero .blue-segment h1 {
+    margin-bottom: 1rem;
+  }
+
+  #hero .blue-segment figure {
+    padding: 0;
+    padding-right: 1rem;
+    width: 24rem;
+
+    position: absolute;
+    bottom: -0.2rem;
+    right: 0;
+  }
+
+  #hero .orange-segment {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #hero .yeallow-segment {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}

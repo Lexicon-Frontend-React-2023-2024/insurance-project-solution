@@ -1,0 +1,21 @@
+#about-us {
+  background: var(--yellow);
+  padding: var(--section-padding);
+  padding-bottom: 6rem;
+}
+
+#about-us h1 {
+  color: var(--white);
+  text-align: center;
+}
+
+#about-us p {
+  color: #644714;
+  font-size: var(--font_size_p);
+}
+
+@media screen and (min-width: 768px) {
+  #about-us {
+    padding: 20rem 15rem 18rem 15rem;
+  }
+}

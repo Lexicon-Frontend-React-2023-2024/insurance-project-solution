@@ -1,0 +1,105 @@
+#financial-saftey {
+  background-color: var(--gray);
+  padding: var(--section-padding);
+}
+
+#financial-saftey .financial-saftey-info {
+  margin-bottom: 8rem;
+}
+
+#financial-saftey .financial-saftey-info h1 {
+  color: var(--white);
+}
+
+#financial-saftey .financial-saftey-info .btn {
+  display: none;
+}
+
+#financial-saftey .financial-saftey-info p {
+  color: #43403f;
+  font-size: var(--font_size_p);
+}
+
+/* ########## Cards segment ##########  */
+
+#financial-saftey .cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#financial-saftey .cards .card {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  margin-bottom: 7rem;
+  max-width: 23rem;
+  padding: 0 2rem 4rem 2rem;
+}
+
+#financial-saftey .cards .card figure {
+  border-radius: 0.5rem;
+  height: 15rem;
+  padding-block: 1rem;
+  text-align: center;
+  transform: translateY(-3rem);
+  overflow: hidden;
+}
+
+#financial-saftey .cards .card figure.child {
+  background-color: var(--blue);
+}
+
+#financial-saftey .cards .card figure.adult {
+  background-color: var(--yellow);
+}
+
+#financial-saftey .cards .card figure.old {
+  background-color: var(--orange);
+}
+
+#financial-saftey .cards .card figure img {
+  width: 9rem;
+}
+
+#financial-saftey .cards .card h3 {
+  color: var(--black);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#financial-saftey .cards .card p {
+  color: #999999;
+}
+
+@media screen and (min-width: 768px) {
+  #financial-saftey .financial-saftey-info {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  #financial-saftey .financial-saftey-info > * {
+    flex: 1;
+    padding-inline: 2rem;
+  }
+
+  #financial-saftey .financial-saftey-info h1 {
+    margin-bottom: 6rem;
+  }
+
+  #financial-saftey .financial-saftey-info p {
+    font-size: 1.5rem;
+  }
+
+  #financial-saftey .financial-saftey-info .btn {
+    display: block;
+  }
+
+  /* ########## Cards segment ########## */
+
+  #financial-saftey .cards {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -20rem;
+  }
+}

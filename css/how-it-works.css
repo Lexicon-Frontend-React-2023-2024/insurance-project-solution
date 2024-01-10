@@ -1,0 +1,67 @@
+#how-it-works {
+  padding-inline: 0;
+}
+
+#how-it-works .step {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  padding-inline: 9rem;
+  position: relative;
+  text-align: center;
+}
+
+#how-it-works .step h1 {
+  margin: 0;
+}
+
+#how-it-works .step .step-instruction {
+  font-size: 2rem;
+}
+
+#how-it-works .step .step-number {
+  color: gray;
+
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+#how-it-works .step.step-intro {
+  background-color: var(--blue);
+}
+
+#how-it-works .step.step-1,
+#how-it-works .step.step-3,
+#how-it-works .step.step-5 {
+  background-color: var(--white);
+}
+
+#how-it-works .step.step-2 {
+  background-color: lightgray;
+}
+
+#how-it-works .step.step-4 {
+  background-color: var(--orange);
+}
+
+@media screen and (min-width: 768px) {
+  #how-it-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #how-it-works .step {
+    padding: 0;
+    justify-items: stretch;
+  }
+
+  #how-it-works .step.step-intro {
+    padding: 5rem;
+  }
+
+  #how-it-works .step .step-instruction {
+    padding: 5rem;
+  }
+}

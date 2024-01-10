@@ -1,0 +1,35 @@
+#navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+}
+
+#navbar a {
+  color: gray;
+  font-size: 2rem;
+  padding-block: 3rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navbar a.home,
+#navbar a.contact {
+  color: var(--black);
+  font-weight: bolder;
+}
+
+/* #navbar a:hover {
+  font-weight: bolder;
+} */
+
+@media screen and (min-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  #navbar a {
+    font-size: 1.3rem;
+    padding-inline: 4rem;
+  }
+}
