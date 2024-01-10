@@ -45,3 +45,23 @@
 #how-it-works .step.step-4 {
   background-color: var(--orange);
 }
+
+@media screen and (min-width: 768px) {
+  #how-it-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #how-it-works .step {
+    padding: 0;
+    justify-items: stretch;
+  }
+
+  #how-it-works .step.step-intro {
+    padding: 5rem;
+  }
+
+  #how-it-works .step .step-instruction {
+    padding: 5rem;
+  }
+}

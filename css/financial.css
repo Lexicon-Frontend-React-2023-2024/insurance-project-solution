@@ -70,3 +70,36 @@
 #financial-saftey .cards .card p {
   color: #999999;
 }
+
+@media screen and (min-width: 768px) {
+  #financial-saftey .financial-saftey-info {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  #financial-saftey .financial-saftey-info > * {
+    flex: 1;
+    padding-inline: 2rem;
+  }
+
+  #financial-saftey .financial-saftey-info h1 {
+    margin-bottom: 6rem;
+  }
+
+  #financial-saftey .financial-saftey-info p {
+    font-size: 1.5rem;
+  }
+
+  #financial-saftey .financial-saftey-info .btn {
+    display: block;
+  }
+
+  /* ########## Cards segment ########## */
+
+  #financial-saftey .cards {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -20rem;
+  }
+}
